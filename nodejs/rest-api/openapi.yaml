@@ -96,6 +96,14 @@ paths:
       responses:
         '200':
           description: Healthy response
+  /test:
+    summary: Test endpoint
+    get:
+      summary: Test endpoint
+      operationId: TestEndpoint
+      responses:
+        '200':
+          description: Test response
 
 components:
   schemas:

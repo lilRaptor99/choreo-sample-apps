@@ -47,7 +47,7 @@ app.get("/healthz", (_, res) => {
 });
 
 app.get("/test", (_, res) => {
-  return res.json({ status: "GUd" });
+  return res.json({ status: "Gooooood" });
 });
 
 app.use((err, _req, res, next) => {
